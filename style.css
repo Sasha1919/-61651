@@ -1,0 +1,133 @@
+html, body{
+ margin: 0;
+ padding: 0;
+ border: 0;
+}
+ul{ 
+ position: absolute;
+ width: 90vw;
+ list-style-type: none;
+ display: flex;
+ justify-content: center;
+ margin-top: 0;
+ font-family: Ubuntu;
+}
+li{ 
+ margin-top: 19px;
+ font-size: 24px;
+ text-decoration: none;
+}
+.nav a{
+ text-decoration: none;
+ color: #4a403f; 
+ padding: 19px;
+ margin-left: 3vw;
+}
+.main-block{
+ width: 100vw;
+ height: 100vh;
+ background-image: url(1.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ position: absolute;
+}
+.header-box-tringle{
+ margin-top: 0vh;
+}
+.tape{ 
+ position: absolute;
+ width: 30vw;
+ opacity: 0.3;
+ height: 100%;
+ left: 55%;
+ background-color: white;
+ transform: skewX(-24deg);
+}
+header {
+ z-index: 9999;
+ position: absolute;
+}
+.text-one{ 
+ position: relative;
+ left: 725px;
+ color:#fff;
+ font-size: 25px; 
+ font-family: Ubuntu-Light;
+}
+.google{
+ position: relative;
+ left: 725px;
+ color:#fff;
+ font-size: 40px;
+ font-family: Ubuntu-Bold;
+}
+.container-text-main{
+ margin-left: 3vw;
+ text-transform: uppercase;
+ position: absolute;
+ margin-top: 50vh;
+}
+.Vasya{
+	width: 65%;
+	position: relative;
+}
+.game {
+	width: 65%;
+	position: relative;
+	top: 760px;
+	margin: 0;
+	border: 0;
+	padding: 0;
+	color: #D3D3D3;
+	font-size: 150px;
+	left: 21%;
+	font-family: sans-serif;
+}
+.book{
+	margin: 0;
+	border: 0;
+	padding: 0;
+	width: 100%;
+	top: 820px;
+	color:#000;
+	position: relative;
+	font-size: 33px; 
+	left: 17%;
+	position: absolute;
+	font-family: sans-serif;
+}
+.box{
+	width: 0;
+	height: 0;
+	position: relative;
+	top: 930px;
+	border-left: 110px solid transparent;
+	border-right: 110px solid transparent;
+	border-bottom: 200px solid #44737c;
+	left: 17%;
+}
+.kik {
+	position: relative;
+	top: 95px;
+	height: 105px;
+}
+.lol{
+	width: 0;
+	height: 0;
+	position: relative;
+	top: 730px;
+	border-left: 110px solid transparent;
+	border-right: 110px solid transparent;
+	border-bottom: 200px solid #44737c;
+	left: 43%;
+}
+.kek {
+	width: 0;
+	height: 0;
+	position: relative;
+	top: 530px;
+	border-left: 110px solid transparent;
+	border-right: 110px solid transparent;
+	border-bottom: 200px solid #44737c;
+	left: 70%;
+}
